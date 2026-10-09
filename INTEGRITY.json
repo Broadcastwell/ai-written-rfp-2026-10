@@ -1,0 +1,85 @@
+{
+  "schema_version": "study7-file-integrity-1",
+  "created_utc": "2026-10-09T23:36:56.962382+00:00",
+  "study_doi": null,
+  "file_count": 15,
+  "total_bytes": 114048893,
+  "manifest_exclusion": "INTEGRITY.json itself is not included in its own file hashes.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 362,
+      "sha256": "e4df22bc0fd6e5b459112653c99c5a79a0593c7c12a8327d9449aee381447791"
+    },
+    {
+      "path": "data/adjacency.csv",
+      "bytes": 1966603,
+      "sha256": "00383b38ddd158253d39c360ebc354a2308e3aa1919354fa6a8290127d4c7117"
+    },
+    {
+      "path": "data/criteria.csv",
+      "bytes": 14493964,
+      "sha256": "5666b15a0cd8a0b0366ca9d475f78309e7df1fb9bd30fcfc650f36fda1b69091"
+    },
+    {
+      "path": "data/evidence.csv",
+      "bytes": 7132733,
+      "sha256": "b39ae71fd61c7e7b6091c001eed4e1bb439c918a76ab9d2a7a15317b0832f889"
+    },
+    {
+      "path": "data/records.csv",
+      "bytes": 1785852,
+      "sha256": "f4598a0eac5cb00bca63b3e0f6045b03df2d9dbc9cd0134b041609fad3c7c9bb"
+    },
+    {
+      "path": "data/study7-index.json",
+      "bytes": 70202540,
+      "sha256": "0f5d4402c3e847868a85fad7ded95e559274ec54930bb1de856e029af65558a9"
+    },
+    {
+      "path": "data/vendor_pages.csv",
+      "bytes": 18190338,
+      "sha256": "61a6e7fb5d7a80d74287eb52c672bf5e4a664254045d68e04dd762ae7054fd83"
+    },
+    {
+      "path": "data/vendor_summaries.csv",
+      "bytes": 49700,
+      "sha256": "e321d200964246e701850d142bd4ebf4872bc7d7ba93ef9ba57c6d591d7c4e6e"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 558,
+      "sha256": "33437849f473480f770bf2357a9d31c421f31010192f2be184c37b15a3c53c77"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4097,
+      "sha256": "0e4742411d0be1a83a2717c1f08fe3135529cde9e112f61903212e99a0b5a68f"
+    },
+    {
+      "path": "research-provenance.json",
+      "bytes": 12975,
+      "sha256": "bd25dc3dbee2848f69c81a4a172ed78ba00c800333e8dff970f4788b3e937a2a"
+    },
+    {
+      "path": "Study7_The_AI_Written_RFP.md",
+      "bytes": 52979,
+      "sha256": "9afd30585e4e9b0f722706912a19ac963ff89af36129bcacd4577b0b20fb31bf"
+    },
+    {
+      "path": "Study7_The_AI_Written_RFP.pdf",
+      "bytes": 140212,
+      "sha256": "16c75a3280bd3fa123441a7402baef77c955058cd3fc976070ea6d79e7e34dcd"
+    },
+    {
+      "path": "verify_publication.py",
+      "bytes": 15971,
+      "sha256": "83c3405cca9faf3f69c16d148421e07876afe8e44b08a9019e48b69a8520cf45"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "schema_version": "study7-research-provenance-1",
+  "byline": "Prepared by the Broadcastwell team",
+  "source_doi": "10.5281/zenodo.22907695",
+  "public_source_url": "https://zenodo.org/api/records/22907695/files/answers-2026-09.jsonl/content",
+  "public_source_sha256": "221c94e1ebad2bc87d7cd20837fa670cc40b10dba6f68b75423dc8bee69697b3",
+  "private_source_sha256": "3af978e9bfd5b620b2d46fab48bbb4f0094bd6a07dfd20a669ae72654d5d9109",
+  "frozen_release_sha256": "e7829183f6785357787fcf85d3c27999403b0a329f349dad4c7343b11d23f142",
+  "source_equality": "Every answer and shared source field in all 2,250 published source rows matches the frozen research source exactly. File and answer hashes identify the published asset and exact supporting passages. Study 7 uses only the scheduled category question rows, with documented original and additional exclusions.",
+  "quotation_policy": "No Perplexity answer quotation text is redistributed in this release. Exact record identifiers, offsets, quotation SHA256 and answer SHA256 are preserved so readers can verify against the original source DOI.",
+  "human_verified_criteria": 0,
+  "categories": [
+    {
+      "category_id": "construction-project-management",
+      "semantic_consistency_checked": true,
+      "full_answer_adjacency_complete": true,
+      "vendor_page_scope_complete": true,
+      "completed_utc": "2026-10-09T21:46:04.202253+00:00",
+      "private_research_file_sha256": {
+        "construction-project-management.json": "ea1e7d3858d42faf700132a5e3ed13134b4fa6238c5acb201ef63b7c54a23b6f",
+        "construction-project-management.adjacency.json": "a3dafadaf03ba22b7901944097c997588b7a2dc72c8a4adcf1f5713db25094ea",
+        "construction-project-management.vendor-pages.json": "c30326d86b9b9a4a21424bbd5c09f4928a4cc7060bd527532b39f88e7ef6b69c"
+      },
+      "private_completion_ledger_sha256": "38164d584b8489f1f802c585296e5df607e1621aef2d15b667a9b1e652e8a4f5",
+      "review_state": "Team review: in progress"
+    },
+    {
+      "category_id": "crm",
+      "semantic_consistency_checked": true,
+      "full_answer_adjacency_complete": true,
+      "vendor_page_scope_complete": true,
+      "completed_utc": "2026-10-09T23:00:01.720436+00:00",
+      "private_research_file_sha256": {
+        "crm.json": "adb60dfe37b3e5169577f3fa6380cd14f48af804f95ad7ed3a7a403d59d49cbc",
+        "crm.adjacency.json": "524b86acec00cffcc115fc4cdccfbff50ce967f89de03dd7f949bfe2ec122924",
+        "crm.vendor-pages.json": "0393bfe640704de3e8a252723f2ee7cce13c6ae8f013871ecdec78fb8ce8d1f7"
+      },
+      "private_completion_ledger_sha256": "32ea2672c34276cf5b119b4d18ea5dd3ad642c005e1f19a58edcf68f9c4fb710",
+      "review_state": "Team review: in progress"
+    },
+    {
+      "category_id": "dealership-management-systems",
+      "semantic_consistency_checked": true,
+      "full_answer_adjacency_complete": true,
+      "vendor_page_scope_complete": true,
+      "completed_utc": "2026-10-09T22:06:54.902068+00:00",
+      "private_research_file_sha256": {
+        "dealership-management-systems.json": "6ce4ad1920dfe34319b06143ed6050b60d663a9ff5f583d72b2aa219b4e92523",
+        "dealership-management-systems.adjacency.json": "c2627a209af971256406522eb752fb5cf377df3df909f589830348e96223dbca",
+        "dealership-management-systems.vendor-pages.json": "aa90fcd7c625d61fc604e601792aebcacb3d83b87df16b6fe57968580d82bb59"
+      },
+      "private_completion_ledger_sha256": "5b2b1875fcd1da6acac6993bd960cc1db350f3d9fe6b65b0db0fe634cf222c4c",
+      "review_state": "Team review: in progress"
+    },
+    {
+      "category_id": "dental-practice-management",
+      "semantic_consistency_checked": true,
+      "full_answer_adjacency_complete": true,
+      "vendor_page_scope_complete": true,
+      "completed_utc": "2026-10-09T22:25:58.005363+00:00",
+      "private_research_file_sha256": {
+        "dental-practice-management.json": "5bcc6682d5ebfa2a57ec1cea3ea707c0eb9f678198d5f25a16e46870cc8f28d7",
+        "dental-practice-management.adjacency.json": "f8b559afac1e8afbe53579e40372898e8e31004dd4aa37ee751fa9d63ee03770",
+        "dental-practice-management.vendor-pages.json": "e492252804ba46cb44523441733e107a97da58d665d4e6ccd7e3dc98e3f8b773"
+      },
+      "private_completion_ledger_sha256": "ebd8109aada0c434c3c8915bb41eb6dcfd0bca6e39bd17064ecd6ff29f3b2fb4",
+      "review_state": "Team review: in progress"
+    },
+    {
+      "category_id": "field-service-management",
+      "semantic_consistency_checked": true,
+      "full_answer_adjacency_complete": true,
+      "vendor_page_scope_complete": true,
+      "completed_utc": "2026-10-09T21:53:09.254295+00:00",
+      "private_research_file_sha256": {
+        "field-service-management.json": "4acba7f77c190934bc45cac4c3d0def63bacc91aad5adddad431527051173263",
+        "field-service-management.adjacency.json": "7b5c4fe47c992213ffd37066941317f72e8ebd24ad352d996c7f8680ddb96ef3",
+        "field-service-management.vendor-pages.json": "1a4c58464017debf4685118e498b4a1368be19c3ded0f652d6cec33c31b76628"
+      },
+      "private_completion_ledger_sha256": "c1c563297ca682572355a4401f785ab06840c7a96a54285e70326b10f637f2ba",
+      "review_state": "Team review: in progress"
+    },
+    {
+      "category_id": "hotel-property-management",
+      "semantic_consistency_checked": true,
+      "full_answer_adjacency_complete": true,
+      "vendor_page_scope_complete": true,
+      "completed_utc": "2026-10-09T22:06:53.886143+00:00",
+      "private_research_file_sha256": {
+        "hotel-property-management.json": "2090105821832938acc53057aec464656a5557dbc35a8f4eadaf0f9a2d6d03e4",
+        "hotel-property-management.adjacency.json": "4e5149787a89d996881bdd100fe4a9acb915d816c125fcd1b402f1ceb79130ec",
+        "hotel-property-management.vendor-pages.json": "60e46ac29983edf82ab4f198c533ba5baf26863b5c3327942bee953745783b98"
+      },
+      "private_completion_ledger_sha256": "a859d82d7ecbf83d31925cb3c57b01f6c4862b7339b1c9a8873b79e07c59e4fb",
+      "review_state": "Team review: in progress"
+    },
+    {
+      "category_id": "insurance-agency-management",
+      "semantic_consistency_checked": true,
+      "full_answer_adjacency_complete": true,
+      "vendor_page_scope_complete": true,
+      "completed_utc": "2026-10-09T22:33:53.752351+00:00",
+      "private_research_file_sha256": {
+        "insurance-agency-management.json": "220459fe25254e107da62a7d9380f76cf1a41d989da92ae26c7aa1fa0dda97db",
+        "insurance-agency-management.adjacency.json": "be2b6a0112bb4043db35a395795811cc3b4abbdded7ab1aa3b85282afcb879d5",
+        "insurance-agency-management.vendor-pages.json": "22cc02b50926f3c5c4977851eb8362513c51b31a91fe35e2b7af1849a5897eab"
+      },
+      "private_completion_ledger_sha256": "4a5fb6fb8d235b0ed836d09e1f92d3872de78f9b08b5a65a639744e43112b641",
+      "review_state": "Team review: in progress"
+    },
+    {
+      "category_id": "legal-practice-management",
+      "semantic_consistency_checked": true,
+      "full_answer_adjacency_complete": true,
+      "vendor_page_scope_complete": true,
+      "completed_utc": "2026-10-09T22:24:23.736849+00:00",
+      "private_research_file_sha256": {
+        "legal-practice-management.json": "750648670a88441ded61b8ffa116c797b16ce9105b19815a382190c4dfd36a84",
+        "legal-practice-management.adjacency.json": "b0e103e401c19ce43dd3f176ef8de278cfc296b684422f50e5121b945ab9eb2d",
+        "legal-practice-management.vendor-pages.json": "710d7f341034d222af8e0ad24453e93309cfec984f2e5fab325ad62fc04e3566"
+      },
+      "private_completion_ledger_sha256": "3daa7562eb9643f05b54b4fd18bf81d068cee5bfc432d14cc3e5cb368825ec88",
+      "review_state": "Team review: in progress"
+    },
+    {
+      "category_id": "loan-origination-software",
+      "semantic_consistency_checked": true,
+      "full_answer_adjacency_complete": true,
+      "vendor_page_scope_complete": true,
+      "completed_utc": "2026-10-09T22:48:36.852433+00:00",
+      "private_research_file_sha256": {
+        "loan-origination-software.json": "d97ce3aa3c606f4a7e8450518ed4c957c8a83171928b147884df35256e549598",
+        "loan-origination-software.adjacency.json": "db83176fa3b2c7074b0d47f56b3665687f5bc7f5ed250f6b615c4d8bc8640f0c",
+        "loan-origination-software.vendor-pages.json": "d8dcc9fc09786b3df29ca6b09556b3f1a3f24687350d4a9393968229ff94e7b5"
+      },
+      "private_completion_ledger_sha256": "0aaa715a2ca04c5b1f2364b0b6aa9e2f094334c7af1a910347e43af43d5edc39",
+      "review_state": "Team review: in progress"
+    },
+    {
+      "category_id": "project_management",
+      "semantic_consistency_checked": true,
+      "full_answer_adjacency_complete": true,
+      "vendor_page_scope_complete": true,
+      "completed_utc": "2026-10-09T23:03:31.704211+00:00",
+      "private_research_file_sha256": {
+        "project_management.json": "217690e5f7b917fbecfe85f4d4a59f64e95257b7305c0b4fb8b4ad35ffdb7db1",
+        "project_management.adjacency.json": "b21878478284d22f4acf05853c094f03d4eb021fdb95cfaed57e9313c3b41609",
+        "project_management.vendor-pages.json": "122fef334b9bc3a2f2833068982ec7fde26f19ddc6cb4f006afb824b81672312"
+      },
+      "private_completion_ledger_sha256": "6438385b0188a8293da9fa78c0994d0a2d4c017aa4fa256b15e1b6c7e0d6ff9e",
+      "review_state": "Team review: in progress"
+    },
+    {
+      "category_id": "radiology-medical-imaging",
+      "semantic_consistency_checked": true,
+      "full_answer_adjacency_complete": true,
+      "vendor_page_scope_complete": true,
+      "completed_utc": "2026-10-09T23:21:06.604983+00:00",
+      "private_research_file_sha256": {
+        "radiology-medical-imaging.json": "cf6763b81accca845ac71faf9a0445fc636c4a77d34134ae784f4a8d8b68b800",
+        "radiology-medical-imaging.adjacency.json": "069367588f4403f4e7487bdf2bb32f5d21c60f2faacef72927df4c0b4821dd8c",
+        "radiology-medical-imaging.vendor-pages.json": "79247eb218070c951429c1c0ec0c981885decb9af9087879aa27168f66b9c695"
+      },
+      "private_completion_ledger_sha256": "915235e49940d771c5a96ed4ec271dee20c0235a6e4b10bee5ca5ec7200bbf8f",
+      "review_state": "Team review: in progress"
+    },
+    {
+      "category_id": "residential-property-management",
+      "semantic_consistency_checked": true,
+      "full_answer_adjacency_complete": true,
+      "vendor_page_scope_complete": true,
+      "completed_utc": "2026-10-09T22:42:15.513368+00:00",
+      "private_research_file_sha256": {
+        "residential-property-management.json": "cd3766242df91108dacf192d9b1a9b4125cb35d808ee37de06b5cd1a0dc75c0c",
+        "residential-property-management.adjacency.json": "cdfedb0bc570de451ccb2cbcc860a2ed76cdbff896502c9278a54d25684d0d33",
+        "residential-property-management.vendor-pages.json": "c12ce53f9aa29e723395479dacfe9317af5c81cb403b0cd253caf10d4e047745"
+      },
+      "private_completion_ledger_sha256": "6a75f2b88f5951eabc70f66e379f47b6a02c3c00f4898c4ae5428050840e9206",
+      "review_state": "Team review: in progress"
+    },
+    {
+      "category_id": "transportation-management-systems",
+      "semantic_consistency_checked": true,
+      "full_answer_adjacency_complete": true,
+      "vendor_page_scope_complete": true,
+      "completed_utc": "2026-10-09T23:04:39.112746+00:00",
+      "private_research_file_sha256": {
+        "transportation-management-systems.json": "c549a064773a0c5195c4f50779993d887cbd137681847ee8f5cd5925a440fe84",
+        "transportation-management-systems.adjacency.json": "10113bb66cc503859c6200a26f208c7cb67bdb69fe6a54672abd1f9937854ad0",
+        "transportation-management-systems.vendor-pages.json": "9dd450bc45a94979a5b7697411f02c60efe5c56a5de66955fc8c29eff195ff97"
+      },
+      "private_completion_ledger_sha256": "b1acf82d6112942778ebd5ffd1435fb2b84d6d4b41f8dfcb5a878ece80ea30b4",
+      "review_state": "Team review: in progress"
+    },
+    {
+      "category_id": "veterinary-practice-management",
+      "semantic_consistency_checked": true,
+      "full_answer_adjacency_complete": true,
+      "vendor_page_scope_complete": true,
+      "completed_utc": "2026-10-09T22:40:09.921408+00:00",
+      "private_research_file_sha256": {
+        "veterinary-practice-management.json": "85cb7f65977d112ad48190331444c9c37b99ec28aef82eeefcff46a5d878c409",
+        "veterinary-practice-management.adjacency.json": "dba4e457687d042750057d3f8a257225d2fe4a6cac42b9ad70241eb6062e0ebb",
+        "veterinary-practice-management.vendor-pages.json": "490c2abc519d3c04c1322d98e8d50d0ed12228b8660a6627e6a1daeb14fd604d"
+      },
+      "private_completion_ledger_sha256": "b65741959c9ab91db73a2e68e9cda8259fd756bd897c6bca4672d2c0600d550c",
+      "review_state": "Team review: in progress"
+    }
+  ],
+  "limits": "These hashes bind the research record to the exported source. They are not an assertion of independent human or analyst verification. Private full text decision records are not redistributed."
+}
