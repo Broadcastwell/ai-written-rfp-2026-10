@@ -1,0 +1,83 @@
+name: Public release verification
+
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-public-release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the revision
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+      - name: Verify every tracked release file
+        shell: python
+        run: |
+          import hashlib
+          import json
+          import subprocess
+          from pathlib import Path
+
+          manifest = json.loads(Path("INTEGRITY.json").read_text(encoding="utf8"))
+          rows = manifest["files"]
+          tracked = set(subprocess.check_output(["git", "ls-files", "-z"]).decode("utf8").split("\0")) - {""}
+          expected = tracked - {"INTEGRITY.json"}
+          assert len(rows) == manifest["file_count"], "Manifest file count mismatch"
+          assert len({row["path"] for row in rows}) == len(rows), "Duplicate manifest paths"
+          assert {row["path"] for row in rows} == expected, "Manifest does not cover every tracked file"
+          assert sum(row["bytes"] for row in rows) == manifest["total_bytes"], "Manifest byte total mismatch"
+          for row in rows:
+              data = Path(row["path"]).read_bytes()
+              assert len(data) == row["bytes"], f"Byte length mismatch: {row['path']}"
+              assert hashlib.sha256(data).hexdigest() == row["sha256"], f"SHA256 mismatch: {row['path']}"
+          print(f"Verified {len(rows)} release files; only INTEGRITY.json excludes itself.")
+      - name: Download the published source DOI assets
+        shell: python
+        run: |
+          import hashlib
+          import json
+          import os
+          import time
+          import urllib.request
+          from pathlib import Path
+
+          publication = json.loads(Path("data/study7-index.json").read_text(encoding="utf8"))
+          destination = Path(os.environ["RUNNER_TEMP"]) / "study7-source"
+          destination.mkdir(exist_ok=True)
+          assets = [
+              ("answers_asset", "answers-2026-09.jsonl", "221c94e1ebad2bc87d7cd20837fa670cc40b10dba6f68b75423dc8bee69697b3"),
+              ("release_asset", "release-2026-09.json", "e7829183f6785357787fcf85d3c27999403b0a329f349dad4c7343b11d23f142"),
+          ]
+          for key, filename, expected_hash in assets:
+              url = f"https://zenodo.org/api/records/22907695/files/{filename}/content"
+              assert publication["source"][key] == {"url": url, "sha256": expected_hash}, "Published source identity changed"
+              request = urllib.request.Request(url, headers={"User-Agent": "Broadcastwell-Study7-public-verification/1.0"})
+              for attempt in range(3):
+                  try:
+                      with urllib.request.urlopen(request, timeout=90) as response:
+                          payload = response.read()
+                      break
+                  except (OSError, TimeoutError):
+                      if attempt == 2:
+                          raise
+                      time.sleep(5 * (attempt + 1))
+              actual_hash = hashlib.sha256(payload).hexdigest()
+              assert actual_hash == expected_hash, f"Published asset hash mismatch: {filename}"
+              (destination / filename).write_bytes(payload)
+              print(f"{filename}: {len(payload)} bytes, SHA256 {actual_hash}")
+      - name: Verify public arithmetic, source offsets and unreviewed status
+        run: |
+          python verify_publication.py data/study7-index.json \
+            --answers-source "$RUNNER_TEMP/study7-source/answers-2026-09.jsonl" \
+            --release-source "$RUNNER_TEMP/study7-source/release-2026-09.json"

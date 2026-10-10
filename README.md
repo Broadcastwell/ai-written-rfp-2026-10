@@ -8,7 +8,9 @@ The study records requirements stated before a named vendor in the frozen Septem
 
 Answers captured under method v1.1 on 22 to 23 Sep 2026 for the Absence Index release 2026-09 (DOI 10.5281/zenodo.22907695).
 
-Study DOI: not assigned at deposit preparation. The source study DOI is given below.
+Study DOI: [10.5281/zenodo.23271935](https://doi.org/10.5281/zenodo.23271935). [All versions](https://doi.org/10.5281/zenodo.23271934).
+
+This metadata update adds the minted study DOI to the report, citation and joined data. The original deposit remains the dated release of record. Every observation table and research figure is unchanged.
 
 ## Read the findings
 
