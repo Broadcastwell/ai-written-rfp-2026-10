@@ -1,10 +1,26 @@
 {
   "schema_version": "study7-file-integrity-1",
-  "created_utc": "2026-10-09T23:36:56.962382+00:00",
-  "study_doi": null,
-  "file_count": 15,
-  "total_bytes": 114048893,
+  "created_utc": "2026-10-10T00:11:55.210663+00:00",
+  "study_doi": "10.5281/zenodo.23271935",
+  "file_count": 16,
+  "total_bytes": 112595498,
   "manifest_exclusion": "INTEGRITY.json itself is not included in its own file hashes.",
+  "metadata_revision": {
+    "baseline_manifest_sha256": "ed97459da3a726a9587da5d71b2fe4e4899eeb62f587619dca8174164ddc6279",
+    "baseline_contract_sha256": "0f5d4402c3e847868a85fad7ded95e559274ec54930bb1de856e029af65558a9",
+    "unchanged_observation_tables": [
+      "adjacency.csv",
+      "criteria.csv",
+      "evidence.csv",
+      "records.csv",
+      "vendor_pages.csv",
+      "vendor_summaries.csv"
+    ],
+    "report_display_aliases": {
+      "Capacity to grow with practice needs": "Ability to grow with practice needs",
+      "Capacity to support business growth": "Ability to support business growth"
+    }
+  },
   "files": [
     {
       "path": ".gitattributes",
@@ -12,9 +28,14 @@
       "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
     },
     {
+      "path": ".github/workflows/verify-publication.yml",
+      "bytes": 3913,
+      "sha256": "ac96e240affba5de51aea767c8c89fac35f7c243d07726ec874da8cd90377182"
+    },
+    {
       "path": "CITATION.cff",
-      "bytes": 362,
-      "sha256": "e4df22bc0fd6e5b459112653c99c5a79a0593c7c12a8327d9449aee381447791"
+      "bytes": 462,
+      "sha256": "6e484379234d97c1e57554bfed6665e2174bfb2bc5a57e238fa2254f775447a8"
     },
     {
       "path": "data/adjacency.csv",
@@ -38,8 +59,8 @@
     },
     {
       "path": "data/study7-index.json",
-      "bytes": 70202540,
-      "sha256": "0f5d4402c3e847868a85fad7ded95e559274ec54930bb1de856e029af65558a9"
+      "bytes": 68744545,
+      "sha256": "8c8cd11d528bf42ae7e1ca0b12e0451f293b88e8d97b263c038c4768ec9e3e65"
     },
     {
       "path": "data/vendor_pages.csv",
@@ -58,8 +79,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4097,
-      "sha256": "0e4742411d0be1a83a2717c1f08fe3135529cde9e112f61903212e99a0b5a68f"
+      "bytes": 4353,
+      "sha256": "7336875c6eb45f71fe749078b961a09a1d1a70e81b996f51d3c65c509bd9c129"
     },
     {
       "path": "research-provenance.json",
@@ -68,13 +89,13 @@
     },
     {
       "path": "Study7_The_AI_Written_RFP.md",
-      "bytes": 52979,
-      "sha256": "9afd30585e4e9b0f722706912a19ac963ff89af36129bcacd4577b0b20fb31bf"
+      "bytes": 53057,
+      "sha256": "189cf967b2e9821d637664f24937086c6afec5408a75cede03477c9ed1a57753"
     },
     {
       "path": "Study7_The_AI_Written_RFP.pdf",
-      "bytes": 140212,
-      "sha256": "16c75a3280bd3fa123441a7402baef77c955058cd3fc976070ea6d79e7e34dcd"
+      "bytes": 140465,
+      "sha256": "7d7925f7087bbc7fc32aada1938bd68f7275961200c87b4fa124c9536ad6fab0"
     },
     {
       "path": "verify_publication.py",

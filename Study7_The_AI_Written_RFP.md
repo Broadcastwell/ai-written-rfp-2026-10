@@ -433,7 +433,7 @@ Answer base: 149. Complete category data: 156 criteria, 705 exact answer spans. 
 | Cost appropriate to the imaging practice budget | 17/149 (11.4%) | 7.2% to 17.5% | Team review: in progress |
 | Fit with the preferred deployment model | 13/149 (8.7%) | 5.2% to 14.4% | Team review: in progress |
 | Ease of use | 12/149 (8.1%) | 4.7% to 13.5% | Team review: in progress |
-| Capacity to grow with practice needs | 11/149 (7.4%) | 4.2% to 12.7% | Team review: in progress |
+| Ability to grow with practice needs | 11/149 (7.4%) | 4.2% to 12.7% | Team review: in progress |
 | Cloud based deployment | 11/149 (7.4%) | 4.2% to 12.7% | Team review: in progress |
 | Costs over the system lifecycle | 11/149 (7.4%) | 4.2% to 12.7% | Team review: in progress |
 | Customer support | 11/149 (7.4%) | 4.2% to 12.7% | Team review: in progress |
@@ -633,7 +633,7 @@ Answer base: 150. Complete category data: 119 criteria, 1027 exact answer spans.
 | Deal and sales pipeline management | 24/150 (16.0%) | 11.0% to 22.7% | Team review: in progress |
 | Connections with the buyer’s existing business tools | 21/150 (14.0%) | 9.3% to 20.5% | Team review: in progress |
 | Sales and revenue forecasting | 20/150 (13.3%) | 8.8% to 19.7% | Team review: in progress |
-| Capacity to support business growth | 19/150 (12.7%) | 8.3% to 18.9% | Team review: in progress |
+| Ability to support business growth | 19/150 (12.7%) | 8.3% to 18.9% | Team review: in progress |
 | Cost appropriate to the buyer’s budget and scale | 18/150 (12.0%) | 7.7% to 18.2% | Team review: in progress |
 
 The complete criteria and evidence tables identify each source answer, engine, question, run, capture date, exact offset and supporting hash. Repeated passages in an answer count once for a criterion.
@@ -737,3 +737,5 @@ Checklist Audit $490. [Every figure comes from the published method, v1.1.](http
 Any named company may request one no-cost re-run at index@broadcastwell.com; both results are published.
 
 CC BY 4.0. Source material remains attributable to its original source. The published data describes dated observations, not product performance or a promised outcome.
+
+Study DOI: [10.5281/zenodo.23271935](https://doi.org/10.5281/zenodo.23271935).
